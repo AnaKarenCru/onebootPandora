@@ -5,8 +5,14 @@
     <template>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</template>
  </category>
  <category>
-     <parttern>ENTRADAS</parttern>
+     <pattern>ENTRADAS</pattern>
      <template>Tenemos palitos de apio, ensalada o fruta picada</template>
+ </category>
+ <category>
+     <pattern>* ENTRADAS</pattern>
+     <template>
+         <srai>ENTRADAS</srai>
+     </template>
  </category>
  <category>
      <pattern>SOPA</pattern>
